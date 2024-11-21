@@ -1,0 +1,20 @@
+Widgets are building blocks of Tkinter
+Eg:text,buttons,checkbox,menus,frames..etc
+
+Tkinter has 2 types of Widgets
+1) tk widgets  - old and original
+2) ttk widgets - new and modern styles
+
+mainloop-> updates the GUI and check for events(buttons,mouse,closing..etc)
+	runs till the file is closed
+ways to get data from widgets=> 1)through a tkinter var
+				2)by get() method i.e. return data in entry
+change widget: every widgets has a config or configure and can be updated
+eg: Label.config(text='new text') (or) Label.configure(text='new text')
+	      (or)
+    Label['text']='new text'
+to disable a entry or something use =>  entry['state']='disabled' or 'enabled' for enabling
+to see all config options of label => print(label.config())
+
+tkinter variables 
+for string use var_name=StringVar(value="start  value")
